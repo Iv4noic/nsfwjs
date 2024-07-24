@@ -9,6 +9,7 @@
     "import": "./dist/esm/index.js",
     "require": "./dist/cjs/index.js"
   },
+  "type": "module",  
   "scripts": {
     "lint": "tslint -p . -t verbose",
     "build:esm": "tsc -p ./tsconfig.esm.json",
